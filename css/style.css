@@ -1,0 +1,103 @@
+body.initial {
+    margin: 0;
+    background: url("../images/background.png") center 45px no-repeat fixed;
+    background-size: 1000px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+header {
+    height: 80px;
+    background: #1fa67a;
+    color: #fff;
+    border-bottom: solid 1px #177657;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.menu a.menu-item {
+    padding: 40px 15px 0px 15px;
+    font-size: 2em;
+    display: inline-block;
+    height: 80px;
+    text-shadow: 1px 1px #666;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu .menu-item:hover {
+    background: #2EBD8B;
+}
+
+.menu .menu-item i {
+    display: none;
+}
+
+.menu .menu-item .sub-menu {
+    position: absolute;
+    top: 80px;
+    background: #2EBD8B;
+    left: 0;
+    display: none;
+    font-size: 0.6em;
+    text-shadow: none;
+    width: 400px;
+    border-top:solid 1px #177657;
+}
+
+.menu .menu-item .sub-menu .sub-menu-item {
+    padding: 5px 10px;
+    color: #ffffff;
+}
+
+.menu .menu-item .sub-menu .sub-menu-item:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.menu .menu-item:hover i {
+    display: inline-block;
+}
+.menu .menu-item:hover .sub-menu {
+    display: block;
+}
+
+.main-container {
+    padding: 30px;
+    margin: 80px auto;
+    width: 1060px;
+    background: rgba(71, 71, 71, 0.92);
+    color: #ffffff;
+}
+
+.main-container .video {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.21);
+}
+
+.main-container .gallery {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.main-container a {
+    color: #A1FCBE;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-container a:hover {
+    color: #79c691;
+}
