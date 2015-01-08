@@ -19,7 +19,14 @@ header {
     width: 100%;
     z-index: 9999;
 }
-
+header .logo-right {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+header .logo-right img {
+    height:70px;
+}
 .menu {
     width: 900px;
     margin: 0 auto;
@@ -27,7 +34,7 @@ header {
 }
 
 .menu a.menu-item {
-    padding: 40px 15px 0px 15px;
+    padding: 20px 15px 0px 15px;
     font-size: 2em;
     display: inline-block;
     height: 80px;
