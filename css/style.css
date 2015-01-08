@@ -24,8 +24,16 @@ header .logo-right {
     right: 10px;
     top: 4px;
 }
+header .logo-left {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
 header .logo-right img {
     height:70px;
+}
+header .logo-left img {
+    height: 45px;
 }
 .menu {
     width: 900px;
@@ -33,7 +41,7 @@ header .logo-right img {
     height: 80px;
 }
 
-.menu a.menu-item {
+.menu a.menu-item, .menu div.menu-item {
     padding: 20px 15px 0px 15px;
     font-size: 2em;
     display: inline-block;
@@ -68,6 +76,7 @@ header .logo-right img {
 .menu .menu-item .sub-menu .sub-menu-item {
     padding: 5px 10px;
     color: #ffffff;
+    display: block;
 }
 
 .menu .menu-item .sub-menu .sub-menu-item:hover {
@@ -79,6 +88,28 @@ header .logo-right img {
 }
 .menu .menu-item:hover .sub-menu {
     display: block;
+}
+header .languages {
+    position: absolute;
+    right: 147px;
+    top: 22px;
+}
+header .languages .lang {
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .languages .lang:hover{
+    background: rgba(255,255,255,0.2);
+    cursor:pointer;
+}
+
+header .languages .lang.active{
+    background: #177657;
+    border-radius: 3px;
 }
 
 .main-container {
